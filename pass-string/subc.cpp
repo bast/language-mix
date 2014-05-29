@@ -4,7 +4,7 @@
 
 extern "C"
 {
-    extern void fortran_print(char *line);
+    extern void fortran_print(const char *line);
 
     void c_print(const char *line)
     {
